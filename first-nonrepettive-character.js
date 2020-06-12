@@ -2,8 +2,6 @@ const input = "aabcccdeeef";
 
 const inputArray = input.split('');
 
-console.log(inputArray);
-
 const uniqueChar = inputArray.filter((char, index) => {
     if (
         (char !== ' ') && 
